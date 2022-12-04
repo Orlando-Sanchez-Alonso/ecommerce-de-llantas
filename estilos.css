@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Nerko+One&family=Oswald:wght@200&family=Raleway:ital,wght@0,300;1,500&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #2fc448;
-}
 
 a{
     font-family: 'Lato', sans-serif;
@@ -25,6 +20,16 @@ h1{
     text-align: center;
     font-size: 50px;
     border: 2px solid rgb(45, 30, 182);
+    position: static;
+    top: 50px;
+    left: 30px;
+
+}
+h1::first-letter{
+    color: #4d1ca8
+}
+h2{
+    display: ;
 
 }
 
@@ -57,7 +62,7 @@ h5{
 }
 
 #seContacto {
-    background-image: url("./imagenes/camion.jpg");
+
     background-color: #1c7ca8;
 }
 
@@ -84,3 +89,71 @@ h5{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.navinline{
+    display: inline;
+    
+}
+
+.menu{
+    border:  2px dashed coral;
+    padding:  4 px;
+
+}
+
+.caja{
+    background-color: #1c7ca8;
+    border: 3px solid blanchedalmond;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+
+}
+
+.boton1{
+    color: #4d1ca8;
+    background-color: #1c7ca8;
+
+}
+.boton1:hover{
+    color: white;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.boton2{
+    background-color: aliceblue;
+
+}
+.boton2:active{
+    background-color: crimson;
+}
+.contllantas{
+    color: rgb(66, 51, 153);
+    font-weight: bold;
+    font-size: 1.5rem;
+ 
+}
+.contllantas::before{
+    content: '';
+    background: url('./imagenes/camion.jpg');
+    position: absolute;
+    background-size: cover;
+    width: 100vw;
+    height: 10vh;
+    z-index: -1;
+    opacity: 0.5;
+}
+.grid_tienda{
+    border: 1px solid red;
+    background-color: #4d1ca8;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+    padding: 20px;
+   
+
+
+    
+   
+}

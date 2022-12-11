@@ -1,0 +1,40 @@
+@media only screen and (min-width: 600px) and (max-width: 991px){
+    body {
+        background-color: aquamarine;
+    }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.seContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+img{
+    border-radius: 50px;
+    width: 20%;
+}
+
+}
+
+@media only screen and (min-width: 900px){
+    body {
+        background-color:rgb(210, 180, 222)    }
+
+.seContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+img{
+    border-radius: 50px;
+    width: 30%;
+    display: none;
+}
+
+}

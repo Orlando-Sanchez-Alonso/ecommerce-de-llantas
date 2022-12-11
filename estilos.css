@@ -90,8 +90,8 @@ h5{
 }
 
 .navinline{
-    display: inline;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .menu{
@@ -152,8 +152,5 @@ h5{
     gap: 5px;
     padding: 20px;
    
-
-
-    
    
 }

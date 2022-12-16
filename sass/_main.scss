@@ -1,0 +1,32 @@
+main{
+    section{
+        .indexh1{
+            font-family: $tipografiaPrincipal;
+            font-size: 10px;
+            color: red;
+            text-decoration: underline;
+        }
+    }
+    section{
+        h2{
+            font-family: $tipografiaPrincipal;
+        
+        }
+    }
+    section{
+        div{
+            div{
+                margin: 3rem;
+                .correcto{
+                    @include botonesCarrito (green);
+                }
+                .error{
+                    @include botonesCarrito(red);
+                }
+                .alerta{
+                    @include botonesCarrito(yellow);
+                }
+            }
+        }
+    }
+}

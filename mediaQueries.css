@@ -19,7 +19,13 @@ img{
     width: 20%;
 }
 
+.cardCodi{
+    margin: 0;
 }
+
+}
+
+
 
 @media only screen and (min-width: 900px){
     body {
@@ -36,5 +42,6 @@ img{
     width: 30%;
     display: none;
 }
+
 
 }

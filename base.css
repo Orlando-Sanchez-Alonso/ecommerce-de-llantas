@@ -1,0 +1,45 @@
+header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+header nav {
+  width: 100%;
+}
+header nav .menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main section .indexh1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  color: red;
+  text-decoration: underline;
+}
+main section h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+main section div div {
+  margin: 3rem;
+}
+main section div div .correcto {
+  font-size: 20px;
+  background-color: green;
+  border-radius: 10px;
+  padding: 1rem;
+}
+main section div div .error {
+  font-size: 20px;
+  background-color: red;
+  border-radius: 10px;
+  padding: 1rem;
+}
+main section div div .alerta {
+  font-size: 20px;
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=base.css.map */

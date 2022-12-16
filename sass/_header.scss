@@ -1,0 +1,12 @@
+header{
+    background-color: $colorFondo;
+    display: flex;
+    align-items: center;
+    nav{
+        width: 100%;
+        .menu{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}

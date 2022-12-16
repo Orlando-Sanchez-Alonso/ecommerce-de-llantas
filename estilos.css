@@ -29,7 +29,7 @@ h1::first-letter{
     color: #4d1ca8
 }
 h2{
-    display: ;
+    display: contents;
 
 }
 
@@ -150,7 +150,8 @@ h5{
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 2fr 1fr;
     gap: 5px;
-    padding: 20px;
-   
-   
+    padding: 20px; 
+}
+.cardCodi{
+    width: 15rem;
 }
